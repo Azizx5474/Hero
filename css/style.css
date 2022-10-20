@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.main {
+  /* width: 100%; */
+  max-width: 1826px;
+  height: 1229px;
+  background: url(../images/bg1.png) no-repeat;
+  background-size: cover;
+  padding-top: 1px;
+  border-radius: 50px;
+  margin: auto;
+}
+.header {
+  max-width: 1470px;
+  width: 90%;
+  height: 122px;
+  margin: auto;
+  margin-top: 64px;
+  display: flex;
+  margin-bottom: 88px;
+  justify-content: space-between;
+}
+.nav-bar {
+  width: 540px;
+  height: 122px;
+  margin-top: 50px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffd89e;
+}
+.main-div {
+  max-width: 1487px;
+  width: 90%;
+  height: 711px;
+  margin: auto;
+}
+.text-img {
+  display: flex;
+}
+.main-text {
+  width: 513px;
+  height: 415px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+}
+.line {
+  width: 207px;
+  height: 0;
+  border: 1px solid #ffd89e;
+  margin-bottom: 55px;
+}
+.main-text1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 110px;
+  color: #ffffff;
+}
+.main-text2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 68px;
+  margin-right: 127px;
+}
+.main-btn {
+  width: 374px;
+  background: linear-gradient(180deg, #c73b0a 2.6%, #532742 100%);
+  border: #c73b0a;
+  box-shadow: 6px 6px 4px #3b1a41;
+  border-radius: 60px;
+  padding: 24px 72px 24px 88px;
+  font-family: "Montez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 30px auto;
+  margin-top: 109px;
+}
+.vector2 {
+  display: none;
+}
+
+.star-div {
+  display: flex;
+  align-items: flex-start;
+}
+.hero {
+  width: 100%;
+}
+.star-img {
+  margin-left: -170px;
+}
